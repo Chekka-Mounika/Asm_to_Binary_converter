@@ -1,0 +1,7 @@
+run : 
+ant make-jar
+java -jar <path-to-jar-file> <path-to-assembly-program> <path-to-object-file>
+
+//<path-to-jar-file>  :   .jar file in /jars folder
+// <path-to-assembly-program>   :  .asm file of which you want to convert into a.out
+//<path-to-object-file>   :  address at which you want to create a.out
